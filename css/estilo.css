@@ -1,3 +1,56 @@
-body{
-    background-color: darkgray;
+.barraSuperior{
+    width: 98%;
+    height: 25px;
+    background-color: blueviolet;
+    margin-top: 8px;
+    margin-left: 9px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    margin-top: 15px;
+    overflow: hidden;
+    background-color: blueviolet;
+    border-radius: 40px;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.column {
+    margin: 15px;
+    float: left;
+    width: 30.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+}
+
+.chat{
+    padding-left: 35px;
+    width:94%; display:inline-block;
 }
